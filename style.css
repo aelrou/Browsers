@@ -1,0 +1,49 @@
+body {
+	font-family: Georgia;
+	font-size: 12pt;
+}
+
+a:link, a:visited  {
+	color: #0000ff;
+}
+
+a:hover, a:active {
+	color: #ff0000;
+}
+
+div {
+	float: left;
+}
+
+table, tr, td {
+	padding: 0px;
+	border-collapse: collapse;
+	border-style: none;
+}
+
+.topic {
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 2px 2px 2px 2px;
+}
+
+.topic thead  {
+	font-weight: bold;
+}
+
+.topic td {
+	padding: 1px 4px 1px 4px;
+	white-space: nowrap;
+}
+
+.feature {
+	color: #008800;
+}
+
+.note {
+	color: #0000ff;
+}
+
+.negative {
+	color: #cc0000;
+}
